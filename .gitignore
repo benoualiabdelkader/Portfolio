@@ -1,0 +1,50 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup Files
+*.backup
+*.backup2
+*.pre-clean-backup
+*_clean.*
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+test_*
+tmp/
+
+# Documentation (dev only)
+CLEANING_*.md
+FIXES_*.md
+PHASE*.md
+QUICK_REFERENCE.md
+START_CLEANING.md
+DEEP_CLEANING_SUMMARY.md
+
+# Development Scripts
+auto-clean.ps1
+
+# Test Files
+herosection.html
+presentaion.html
+fixes.css
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies (if using npm/yarn in future)
+node_modules/
+package-lock.json
+yarn.lock

@@ -1,0 +1,10 @@
+مشاريع WEbDEV : 
+PrimeVision :
+PrimeVision: Discover, track, and manage movies & TV shows with personalized recommendations, favorites, and watchlists. 🎬✨
+github link : https://github.com/benoualiabdelkader/PrimeVision
+Wanderlust AI: Your AI-powered travel companion that helps you discover destinations, plan smart itineraries, and manage trips effortlessly. ✈️🌍
+gihublink :https://github.com/benoualiabdelkader/Wanderlust-AI
+NewsBot is an AI-powered chatbot using Google Gemini 1.5 to deliver real-time news and summaries across multiple categories, with a responsive interface and fact-checking features.
+gihub link : https://github.com/benoualiabdelkader/NewsBot
+Tech-Nova-Shop: Tech-Nova-Shop is a modern, responsive e-commerce website for electronics, built with HTML, Tailwind CSS, and JavaScript. Features include product catalog, advanced search and filters, shopping cart, secure checkout, user accounts, and demo login for testing.
+Gihube link : https://github.com/benoualiabdelkader/Tech-Nova-Shop

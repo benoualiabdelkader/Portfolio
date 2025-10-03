@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .success { color: #22c55e; }
+        .error { color: #ef4444; }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background: #3b82f6;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Functionality Test</h1>
+    
+    <div class="test-section">
+        <h2>1. Basic JavaScript Load</h2>
+        <p id="basic-test">Testing...</p>
+    </div>
+
+    <div class="test-section">
+        <h2>2. DOM Manipulation</h2>
+        <button id="dom-test-btn">Click Me</button>
+        <p id="dom-test-result"></p>
+    </div>
+
+    <div class="test-section">
+        <h2>3. Event Listeners</h2>
+        <button id="event-test-btn">Test Event</button>
+        <p id="event-test-result"></p>
+    </div>
+
+    <div class="test-section">
+        <h2>4. LocalStorage</h2>
+        <button id="storage-set">Set Storage</button>
+        <button id="storage-get">Get Storage</button>
+        <p id="storage-result"></p>
+    </div>
+
+    <div class="test-section">
+        <h2>5. Main Script Functions</h2>
+        <div id="functions-test"></div>
+    </div>
+
+    <script>
+        // Test 1: Basic JavaScript
+        document.getElementById('basic-test').innerHTML = '<span class="success">✓ JavaScript is working!</span>';
+        document.getElementById('basic-test').classList.add('success');
+
+        // Test 2: DOM Manipulation
+        document.getElementById('dom-test-btn').addEventListener('click', function() {
+            document.getElementById('dom-test-result').innerHTML = '<span class="success">✓ DOM manipulation working!</span>';
+        });
+
+        // Test 3: Event Listeners
+        let clickCount = 0;
+        document.getElementById('event-test-btn').addEventListener('click', function() {
+            clickCount++;
+            document.getElementById('event-test-result').innerHTML = `<span class="success">✓ Event listener working! Clicks: ${clickCount}</span>`;
+        });
+
+        // Test 4: LocalStorage
+        document.getElementById('storage-set').addEventListener('click', function() {
+            try {
+                localStorage.setItem('test-key', 'test-value-' + Date.now());
+                document.getElementById('storage-result').innerHTML = '<span class="success">✓ LocalStorage set successfully!</span>';
+            } catch(e) {
+                document.getElementById('storage-result').innerHTML = '<span class="error">✗ LocalStorage error: ' + e.message + '</span>';
+            }
+        });
+
+        document.getElementById('storage-get').addEventListener('click', function() {
+            try {
+                const value = localStorage.getItem('test-key');
+                if (value) {
+                    document.getElementById('storage-result').innerHTML = `<span class="success">✓ LocalStorage retrieved: ${value}</span>`;
+                } else {
+                    document.getElementById('storage-result').innerHTML = '<span class="error">✗ No value found. Click "Set Storage" first.</span>';
+                }
+            } catch(e) {
+                document.getElementById('storage-result').innerHTML = '<span class="error">✗ LocalStorage error: ' + e.message + '</span>';
+            }
+        });
+
+        // Test 5: Check if main script functions are available
+        window.addEventListener('load', function() {
+            const functionsDiv = document.getElementById('functions-test');
+            let html = '';
+            
+            // Check for common functions from your script.js
+            const functionsToCheck = [
+                'initializeApp',
+                'initializeThemeToggle',
+                'initializeLanguageSelector',
+                'initializeMobileMenu',
+                'getTranslations',
+                'getCurrentLanguage'
+            ];
+
+            functionsToCheck.forEach(funcName => {
+                if (typeof window[funcName] === 'function') {
+                    html += `<p class="success">✓ ${funcName} is defined</p>`;
+                } else {
+                    html += `<p class="error">✗ ${funcName} is NOT defined</p>`;
+                }
+            });
+
+            functionsDiv.innerHTML = html;
+        });
+
+        // Console log test
+        console.log('✓ Console logging works!');
+        console.info('ℹ Info logging works!');
+        console.warn('⚠ Warning logging works!');
+        
+        // Check for errors in console
+        window.addEventListener('error', function(e) {
+            console.error('Error detected:', e.message, e.filename, e.lineno);
+        });
+
+        console.log('All tests initialized successfully!');
+    </script>
+
+    <script src="assets/js/stat-anim.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

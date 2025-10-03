@@ -1,0 +1,236 @@
+بخصوص مشاريع presentaion  : يجب ان تكون هناك بطاقات مشاريع جميلة جدا باللغة الانجليزية  مع الوان متناسقة مع الموقع  + عند الضغط عليها يجب  ان تحترم نافذة الظاهرة الهيكل العام لنافذة الموجودة في : نافذة.png
+تفاصييل المشاريع : 
+ 
+1. Presentation: "Quora Knowledge Hub.pptx"
+Total Number of Slides: 13
+
+Primary Theme: The power, importance, and political weight of knowledge in the modern world, using Quora as a central example.
+
+Tone: Informative, philosophical, and politically charged.
+
+Slide-by-Slide Breakdown:
+
+Title Slide: "Quora Knowledge Hub" by BENOUALI ABDELKADER.
+
+Summary / Agenda: Lists the topics to be covered (slides 04-13).
+
+Summary / Agenda (continued): Lists the remaining topics (slides 01-03, 07-09) and includes slide 12 again.
+
+Quora?: Defines Quora as a question-and-answer platform for sharing knowledge.
+
+Team Members: Introduces the co-founders of Quora, Adam D'Angelo (CEO) and Charlie Cheever (former CTO).
+
+Type of Tool: Reiterates that Quora is a web and mobile-based Q&A platform.
+
+Famous Personalities on Quora: Highlights Elon Musk, Neil deGrasse Tyson, and Bill Gates as notable users.
+
+The purpose of Quora: Lists three purposes: Knowledge Sharing, Community Engagement, and Expert Insights.
+
+Features of Quora: Lists key features like Q&A format, voting, following, spaces, profiles, etc.
+
+Video For You: A placeholder slide titled "Video For You" with the text "Knowledge is the key to progress" and "Quora."
+
+Quora Users By Country: Provides user statistics: USA (148M), India (100M), UK (22.5M), Canada (15M).
+
+Knowledge is power: This is a highly politically charged slide. It describes a fictional Israeli airstrike on Yemen (dated July 20, 2024), listing advanced military technology (Iron Dome, hypersonic missiles) and attributes Israel's dominance to investment in knowledge, stating "knowledge is power in the hands of its owner, even if he is a criminal."
+
+From the stone to the rocket: Contrasts the previous slide by describing the Palestinian resistance in Gaza. It states that despite a siege, poverty, and unemployment, knowledge was developed from throwing stones to developing missiles in 2024, concluding that knowledge is a force for change.
+
+Message from an enemy: A provocative, first-person message from an entity ("your enemy") claiming to have defeated, divided, and stripped knowledge from the reader's culture, while boasting about its own military, cultural, and technological dominance (e.g., "I own knowledge. I own the world").
+
+Message to us: A quote from Stephen Hawking: "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge."
+
+Our sources: A final slide stating "We strive to offer the best, and that's why we rely on the best sources worldwide," followed by a thank you note and the year 2024.
+
+2. Presentation: "SAFE.pptx"
+Total Number of Slides: 18 (content slides, many are title slides)
+
+Primary Theme: A project proposal named "SAFE," presented at the AAF Summer University 2025. It appears to be a business solution related to "Safe Water, Safe Money," likely for the agricultural sector.
+
+Tone: Formal, professional, and project-oriented.
+
+Slide-by-Slide Breakdown:
+
+Title Slide: "AAF Summer University 2025" and "SAFE". Introduces the team:
+
+Mehenni Nor-Elhouda (PhD in Telecommunications)
+
+Benaissa (Master 1 Student in AI & Cyber Security)
+
+Meryem Yassamine KHELIL (PhD in Plant Protection)
+
+BENOUALI ABDELKADER (University Professor in Electronics) - This is the same author from the first presentation.
+
+AAF Summer University 2025: A simple title slide repeating the event name.
+
+IDENTIFIED CHALLENGE: A title slide, implying the next slide would detail a specific problem.
+
+IDEA: A title slide, implying the next slide would present the solution idea.
+
+Slide 6: Labeled "6", but the content is "Potential and Target".
+
+Target Client: Clearly identifies the "FARMER" as the target client.
+
+Source of income: A title slide for discussing revenue streams.
+
+Added value: A title slide for discussing the project's value proposition.
+
+MARKET: A title slide for market analysis.
+
+Competitors: A title slide for competitor analysis.
+
+AAF Summer University 2025: Another blank title slide.
+
+Marketing strategy: A title slide for the marketing plan.
+
+Organization Structure: A title slide for the team's organizational structure.
+
+Funding: A title slide for financials.
+
+Fixed Costs: A title slide for listing fixed expenses.
+
+Variable Costs: A title slide for listing variable expenses.
+
+Important Note on "SAFE.pptx": This presentation is primarily composed of title slides and section headers. The actual content, details, data, and explanations for each section (e.g., what the specific challenge is, what the SAFE idea entails, what the costs are) are not included in the provided file content. It is a structural outline for a pitch deck.
+
+3. Presentation: "Artificial Intelligence.pptx"
+Total Number of Slides: 16
+
+Primary Theme: A comprehensive introduction to Artificial Intelligence, covering its history, future, and applications in key fields like medicine, transportation, and warfare.
+
+Tone: Educational, informative, and forward-looking.
+
+Slide-by-Slide Breakdown:
+
+Title Slide: "Artificial Intelligence: An introduction to the future" by BENOUALI ABDELKADER ZAKARIA.
+
+Introduction: Defines Artificial Intelligence (AI) and its core capabilities.
+
+Artificial Intelligence (AI)?: Repeats and expands on the definition of AI.
+
+HISTORY OF AI / Can Machines Think?: Discusses Alan Turing's foundational work and the early ideas of AI in science fiction.
+
+The Conference that Started it All: Covers the pivotal 1956 Dartmouth Conference and the creation of the first AI program, the Logic Theorist.
+
+Ups and Downs of Achievements: Details the progress and funding in AI from 1957-1974, mentioning early programs like General Problem Solver and ELIZA, and the remaining challenges.
+
+Time Heals all Wounds: Explains how Moore's Law enabled major AI advancements, like Deep Blue and AlphaGo, while noting current limitations.
+
+The Future: Discusses the ethical and policy questions arising from advanced AI (e.g., language models, driverless cars) and its expected significant societal impact.
+
+HOW TO LEARN AI: A title slide promoting AI learning courses.
+
+HOW TO LEARN AI: A continuation of the previous slide.
+
+The Field of Artificial Intelligence (AI): A placeholder title slide.
+
+AI and Medicine: Explores the benefits (improved care, reduced errors) and challenges (privacy, ethics) of AI in healthcare.
+
+AI and transportation: Highlights AI's role in improving safety, passenger experience, and sustainability in transport, alongside regulatory and cybersecurity challenges.
+
+AI and The war: Addresses the ethical, legal, and strategic concerns of using AI in warfare and military applications.
+
+Sources: Cites "several international sources known for their reliability and transparency."
+
+Conclusion: Emphasizes the crucial need for responsible advancement of AI to shape an intelligent and inclusive future.
+
+4. Presentation: "Multimodal Interfaces.pptx"
+Total Number of Slides: 16 (12 content slides + 4 summary/agenda slides)
+
+Primary Theme: An in-depth look at Multimodal Interfaces, explaining their foundations, advantages, challenges, practical applications, and global impact.
+
+Tone: Technical, analytical, and persuasive.
+
+Slide-by-Slide Breakdown:
+
+Title Slide: "Multimodal Interfaces"
+
+Summary / Agenda: Lists the topics to be covered (slides 04-06, 10-12).
+
+Summary / Agenda (continued): Lists the remaining topics (slides 01-03, 07-09).
+
+Multimodal Interface?: Defines what a multimodal interface is.
+
+Multimodal Interface?: Repeats the definition.
+
+Foundations of Multimodal Interfaces / Interaction Modes: Lists the four modes: Visual, Auditory, Haptic, Gestural.
+
+Foundations of Multimodal Interfaces / Technologies Used: Lists key technologies: Sensors, AI algorithms, Multimodal Design.
+
+Advantages: Lists three advantages: Mimics Human Communication (Improved UX), Increased Accessibility, Versatility and Robustness.
+
+Challenges (Technical Complexity): Details challenges in Integration/Synchronization and Real-time Data Processing.
+
+Challenges (Development Costs): Details costs related to Advanced Sensors and Powerful Learning Algorithms.
+
+Challenges (Ethics and Privacy): Details concerns over Capturing Sensitive Data and Data Security Risks.
+
+Practical Applications: Shows examples: Smart Home Assistants (Google Assistant, Siri, Alexa).
+
+Practical Applications: Shows examples: In-car interfaces.
+
+Practical Applications: Shows examples: Interfaces for disabled patients.
+
+Practical Applications: Shows examples: PlayStation VR and the Pepper Robot.
+
+Countries leading investment...: A title slide for this topic (content not detailed in provided text).
+
+Message to us: Repeats the Stephen Hawking quote from the first presentation.
+
+Our sources: Same as previous presentations: "rely on the best sources worldwide."
+
+Conclusion: A strong argument that adopting multimodal interfaces is key for national advancement, urging developing nations to focus on education and youth empowerment to bridge technological gaps.
+
+The End: Thank you and 2024.
+ SSD : add information from yourself
+نافذة.png : Design a sleek and modern presentation modal popup for a portfolio website that opens when a project card is clicked; the modal should be centered, full-screen with a semi-transparent background overlay that darkens the page, and the modal container should have soft rounded corners, subtle shadows, and padding consistent with the site’s style; on the left side, embed a presentation using an iframe (from Canva or similar), scaled responsively without showing external player controls, maintaining a clean look; above the iframe, add a project title in bold typography and below it a short description in smaller text for context; on the right side, create a vertical content section with (1) a project overview in clear readable text, (2) key highlights or features in bullet points with small modern icons, and (3) a single large, rounded primary button labeled “Download Presentation” aligned at the bottom for emphasis; ensure the design allows users to navigate or close the modal easily with a minimal X close button at the top-right; all colors, fonts, and accents should match the main website’s theme for visual consistency, and spacing should be balanced to avoid clutter while making the presentation itself the focal point.
+روابط الcanava الخاصة ب embed : 
+
+SAFE Safe Water Safe Money  : <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGulWdXCt0/Dr1UEtJ9YGpmOWTTDYDyhg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGulWdXCt0&#x2F;Dr1UEtJ9YGpmOWTTDYDyhg&#x2F;view?utm_content=DAGulWdXCt0&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">AAFSU2025_Entrepreneurship_ISIchallengeTemplateFinal.pptx</a> par abdelkader benouali
+
+Artificial Intelligence: An introduction to the future: <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAF2a3wDKMo/tHEzwms8Mh4B5mANmVazAg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF2a3wDKMo&#x2F;tHEzwms8Mh4B5mANmVazAg&#x2F;view?utm_content=DAF2a3wDKMo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Copie de Diaporama Commercial Rapport d'Entreprise Annuel Société Géométrique Bleu</a> par abdelkader benouali
+
+Multimodal Interfaces: <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGx1k-n9pk/WIC24yEbRzmmWR3_52LC3g/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGx1k-n9pk&#x2F;WIC24yEbRzmmWR3_52LC3g&#x2F;view?utm_content=DAGx1k-n9pk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Multimodal.pptx</a> par abdelkader benouali
+
+SSD drives: A Revolution in the world of storage: <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAFRugae-sQ/EGSvGYcWkcnOOdez52jE4w/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFRugae-sQ&#x2F;EGSvGYcWkcnOOdez52jE4w&#x2F;view?utm_content=DAFRugae-sQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Diaporama Commercial Rapport d'Entreprise Annuel Société Géométrique Bleu</a> par abdelkader benouali
+
+Quora Knowledge Hub : <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGx1gY6EEw/QLV9dYbZCNyyukkwHmZUpw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGx1gY6EEw&#x2F;QLV9dYbZCNyyukkwHmZUpw&#x2F;view?utm_content=DAGx1gY6EEw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Présentation de projet.pptx</a> par abdelkader benouali
+
+
+
+
