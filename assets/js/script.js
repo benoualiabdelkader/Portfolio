@@ -2236,13 +2236,15 @@ function initializeProjectModals() {
                                             </div>
                                             <div class="mini-hourglass-text">Loading Images...</div>
                                         </div>
-                                        <div class='modal-slider-images' id='modalSliderImages'>
+                                        <div class='modal-slider-images' id='modalSliderImages' style='opacity: 0;'>
                                             ${project.images.map((img, idx) => `
                                                 <img src='${normalizePath(img)}' 
                                                      alt='${project.title} - Image ${idx + 1}' 
                                                      class='modal-slider-image ${idx === 0 ? 'active' : ''}' 
                                                      data-index='${idx}'
-                                                     draggable='false' />
+                                                     draggable='false'
+                                                     loading='eager'
+                                                     style='visibility: hidden;' />
                                             `).join('')}
                                         </div>
                                         <button class='modal-slider-btn modal-slider-prev' id='sliderPrevBtn' title='Previous Image (←)'>
@@ -2290,7 +2292,13 @@ function initializeProjectModals() {
                                         </div>
                                         <div class="mini-hourglass-text">Loading...</div>
                                     </div>
-                                    <img src='${normalizePath(project.image)}' alt='${project.title || "Project Image"}' class='modal-zoomable' id='modalZoomableImage' draggable='false' />
+                                    <img src='${normalizePath(project.image)}' 
+                                         alt='${project.title || "Project Image"}' 
+                                         class='modal-zoomable' 
+                                         id='modalZoomableImage' 
+                                         draggable='false'
+                                         loading='eager'
+                                         style='visibility: hidden; opacity: 0;' />
                                 </div>
                                 <div class='modal-image-controls-advanced'>
                                     <button class='modal-control-btn' id='zoomInBtn' title='Zoom In (+)'>
@@ -2324,7 +2332,11 @@ function initializeProjectModals() {
                                 
                                 // Show loading state with hourglass
                                 if (wrapper) wrapper.classList.add('loading');
-                                if (img) img.classList.remove('loaded');
+                                if (img) {
+                                    img.classList.remove('loaded');
+                                    img.style.visibility = 'hidden';
+                                    img.style.opacity = '0';
+                                }
                                 if (hourglassLoader) hourglassLoader.classList.add('active');
                                 
                                 // Preload image
@@ -2333,7 +2345,9 @@ function initializeProjectModals() {
                                     if (wrapper) wrapper.classList.remove('loading');
                                     if (hourglassLoader) hourglassLoader.classList.remove('active');
                                     if (img) {
+                                        img.style.visibility = 'visible';
                                         setTimeout(() => {
+                                            img.style.opacity = '1';
                                             img.classList.add('loaded');
                                         }, 50);
                                     }
@@ -2341,6 +2355,10 @@ function initializeProjectModals() {
                                 preloadImg.onerror = () => {
                                     if (wrapper) wrapper.classList.remove('loading');
                                     if (hourglassLoader) hourglassLoader.classList.remove('active');
+                                    if (img) {
+                                        img.style.visibility = 'visible';
+                                        img.style.opacity = '1';
+                                    }
                                     console.error('Failed to load project image');
                                 };
                                 preloadImg.src = normalizePath(project.image);
@@ -2530,24 +2548,23 @@ function initializeProjectModals() {
                                 console.log('First image src:', sliderImages[0]?.src);
                                 console.log('First image classList:', sliderImages[0]?.classList);
                                 
-                                // Force first image to be visible immediately
-                                if (sliderImages.length > 0) {
-                                    sliderImages[0].style.opacity = '1';
-                                    sliderImages[0].style.visibility = 'visible';
-                                    sliderImages[0].style.transform = 'translate(-50%, -50%) scale(1)';
-                                    console.log('First image forced visible');
-                                }
-                                
                                 let currentIndex = 0;
                                 let imagesLoaded = 0;
                                 const totalImages = sliderImages.length;
+                                const sliderImagesContainer = document.getElementById('modalSliderImages');
                                 
-                                // Fallback: hide hourglass after 2 seconds if images don't load
+                                // Fallback: hide hourglass and show images after 3 seconds if loading takes too long
                                 setTimeout(() => {
                                     if (hourglassLoader) {
                                         hourglassLoader.classList.remove('active');
                                     }
-                                }, 2000);
+                                    if (sliderImagesContainer) {
+                                        sliderImagesContainer.style.opacity = '1';
+                                    }
+                                    sliderImages.forEach(img => {
+                                        img.style.visibility = 'visible';
+                                    });
+                                }, 3000);
                                 
                                 // Preload all images
                                 sliderImages.forEach((img, index) => {
@@ -2555,15 +2572,29 @@ function initializeProjectModals() {
                                     preloadImg.onload = () => {
                                         imagesLoaded++;
                                         console.log(`Image ${index + 1}/${totalImages} loaded`);
-                                        if (imagesLoaded === totalImages && hourglassLoader) {
-                                            hourglassLoader.classList.remove('active');
+                                        img.style.visibility = 'visible';
+                                        
+                                        if (imagesLoaded === totalImages) {
+                                            if (hourglassLoader) {
+                                                hourglassLoader.classList.remove('active');
+                                            }
+                                            if (sliderImagesContainer) {
+                                                sliderImagesContainer.style.opacity = '1';
+                                            }
                                         }
                                     };
                                     preloadImg.onerror = () => {
                                         imagesLoaded++;
                                         console.error(`Failed to load image ${index + 1}: ${img.src}`);
-                                        if (imagesLoaded === totalImages && hourglassLoader) {
-                                            hourglassLoader.classList.remove('active');
+                                        img.style.visibility = 'visible';
+                                        
+                                        if (imagesLoaded === totalImages) {
+                                            if (hourglassLoader) {
+                                                hourglassLoader.classList.remove('active');
+                                            }
+                                            if (sliderImagesContainer) {
+                                                sliderImagesContainer.style.opacity = '1';
+                                            }
                                         }
                                     };
                                     preloadImg.src = img.src;
