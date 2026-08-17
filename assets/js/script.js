@@ -164,11 +164,11 @@ function initializeProjectFilters() {
 
         // Insert a fixed, carefully-styled set of filters (keeps order predictable)
         const filters = [
-            { key: 'all', label: 'All', icon: '<span class="filter-icon"><i class="fas fa-star"></i></span>' },
-            { key: 'presentation', label: 'Presentation', icon: '<span class="filter-icon"><i class="fas fa-file-powerpoint"></i></span>' },
-            { key: 'voiceover', label: 'Voiceover', icon: '<span class="filter-icon"><i class="fas fa-microphone"></i></span>' },
-            { key: 'webdev', label: 'Webdev', icon: '<span class="filter-icon"><i class="fas fa-code"></i></span>' },
-            { key: 'chatbot', label: 'Chatbot', icon: '<span class="filter-icon"><i class="fas fa-robot"></i></span>' },
+            { key: 'all', label: 'All AI Projects', icon: '<span class="filter-icon"><i class="fas fa-sparkles"></i></span>' },
+            { key: 'ai', label: 'AI Systems', icon: '<span class="filter-icon"><i class="fas fa-brain"></i></span>' },
+            { key: 'chatbot', label: 'AI Assistants', icon: '<span class="filter-icon"><i class="fas fa-robot"></i></span>' },
+            { key: 'ml', label: 'Machine Learning', icon: '<span class="filter-icon"><i class="fas fa-chart-line"></i></span>' },
+            { key: 'blueprint', label: 'Blueprints', icon: '<span class="filter-icon"><i class="fas fa-diagram-project"></i></span>' },
         ];
 
         // If container already has buttons (e.g., server-rendered), skip adding
@@ -756,8 +756,8 @@ function getCurrentLanguage() {
 function getTranslations() {
     return {
         en: {
-            metaTitle: 'Abdelkader Benouali - Frontend Developer & UI/UX Designer',
-            metaDescription: 'Frontend developer, UI/UX designer, and AI enthusiast creating responsive web and mobile experiences.',
+            metaTitle: 'Abdelkader Benouali — AI Product Designer & Frontend Developer',
+            metaDescription: 'AI product designer and frontend developer creating clear, human-centered intelligent experiences.',
             // Navigation
             'nav-home': 'Home',
             'nav-about': 'About',
@@ -769,8 +769,8 @@ function getTranslations() {
 
             // Hero
             'hero-greeting': "Hi, it's",
-            'hero-roles': "I'am a Frontend Devloper|I'am UI/UX Designer|I'am Ai enthinlis|I'am IT support speacilts",
-            'hero-subtitle': "I'am a Frontend Devloper",
+            'hero-roles': "I design AI products|I build intelligent interfaces|I turn complex ideas into useful tools|I craft human-centered digital experiences",
+            'hero-subtitle': 'I design AI products',
             'hero-description': "Passionate about creating innovative digital solutions, with 3+ years of experience in Front end and Ui ux , AI chatbots, presentation design, and voice over services.",
             'btn-whatsapp': 'WhatsApp Me',
             'btn-contact': 'Get In Touch',
@@ -1852,7 +1852,43 @@ function initializeProjectModals() {
                 'Progressive Web App (PWA) ready'
             ],
             technologies: ['HTML5', 'CSS3', 'JavaScript', 'Font Awesome', 'Responsive Design', 'CSS Animations', 'PWA', 'Multi-language', 'Accessibility']
-        }
+        },
+        '101': {
+            title: 'ATS — Career Application Agent',
+            description: 'A local AI career operating system for grounded, ATS-optimized application packages.',
+            type: 'webdev', types: ['ai', 'webdev'],
+            image: 'Project/Presentaion/Artificial Intelligence.PNG',
+            githubUrl: 'https://github.com/benoualiabdelkader/ATS',
+            features: ['Grounded candidate memory', 'AI-assisted application workflow', 'ATS evaluation and PDF export'],
+            technologies: ['Python', 'FastAPI', 'Pydantic', 'AI workflow']
+        },
+        '102': {
+            title: 'Adaptive Blended Assessment',
+            description: 'AI-driven academic writing analytics that turns learning signals into traceable feedback and risk insights.',
+            type: 'webdev', types: ['ai', 'ml'],
+            image: 'Project/Presentaion/multimodal.PNG',
+            githubUrl: 'https://github.com/benoualiabdelkader/Adaptive-Blended-Assessment-',
+            features: ['AI writing analysis', 'Moodle data pipeline', 'Traceable feedback and reports'],
+            technologies: ['Python', 'TypeScript', 'Node.js', 'NLP']
+        },
+        '103': {
+            title: 'ATLAS — Agentic Cinematic Production',
+            description: 'A structured blueprint for orchestrating generative AI agents across screenplay, scene, and production workflows.',
+            type: 'presentation', types: ['ai', 'blueprint'],
+            image: 'Project/Presentaion/SAFE.PNG',
+            githubUrl: 'https://github.com/benoualiabdelkader/ATLAS',
+            features: ['Agent orchestration blueprint', 'Gemini-based workflow design', 'Secure sandbox execution concept'],
+            technologies: ['AI agents', 'Gemini', 'System architecture']
+        },
+        '104': {
+            title: 'EcoSentinel AI',
+            description: 'An environmental machine learning concept using classification and visual analytics to surface pollution risk signals.',
+            type: 'webdev', types: ['ai', 'ml'],
+            image: 'Project/Presentaion/Artificial Intelligence.PNG',
+            githubUrl: 'https://github.com/benoualiabdelkader/eco-sentinel-project',
+            features: ['Environmental classification', 'Model evaluation', 'Interactive analytics'],
+            technologies: ['Python', 'Scikit-learn', 'Streamlit', 'Pandas']
+        },
     };
     // expose project data for other modules (filters etc.)
     try { window.PROJECT_DATA = projectData; } catch (e) {}
@@ -4210,10 +4246,10 @@ window.addEventListener('unhandledrejection', function(e) {
 (function initializeHeroTypingAnimation() {
     try {
         const phrases = [
-            "I'm a Frontend Developer",
-            "I'm a UI/UX Designer",
-            "I'm an AI Enthusiast",
-            "I'm an IT Support Specialist"
+            "I design AI products",
+            "I build intelligent interfaces",
+            "I turn complex ideas into useful tools",
+            "I craft human-centered digital experiences"
         ];
 
         const typedText = document.getElementById("typedText");
